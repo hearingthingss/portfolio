@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function copyToClipboard(link) {
+            navigator.clipboard.writeText(link);
+            alert("Copied the text: " + link);
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+
+<body>
+    <!-- <a class="title" href="/html/home.html"> <h4> <i>home</i> </h4> </a> -->
+    <center>
+        <div class="navbar">
+            <button> <a class="navbar" href="/html/home.html"> home </a> </button>
+            <button> <a class="navbar" href="/html/about.html"> about </a> </button>
+            <button> <a class="navbar" href="/html/profiles.html"> profiles </a> </button>
+            <button> <a class="navbar" href="/html/contact.html"> contact </a> </button>
+        </div>
+
+        <p> <i>[ my projects ]</i> </p>
+    </center>
+
+    <!-- <p class="body"> check this out! </p> -->
+    <section class="projects">
+        <div class="item">
+            <div>
+                <button class="copybutton"><a class="copylink">#</a></button>
+                <a class="external" href="https://www.github.com/hearingthingss/python-projects"> python projects </a>
+            </div>
+            <p class="description"> an assortment of simple files written in python</p>
+        </div>
+    </section>
+</body>
+
+</html>
