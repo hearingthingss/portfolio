@@ -53,6 +53,9 @@ a.copylink {
     color: #808080;
 }
 
+a.language {
+    font-size: 0.8em;
+}
 
 a:hover::before {
     content: "[";
