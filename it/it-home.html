@@ -5,7 +5,7 @@
     <script>
         function copyToClipboard(link) {
             navigator.clipboard.writeText(link);
-            alert("Copied the text: " + link);
+            alert("Copiato il link: " + link);
         }
     </script>
     <link rel="stylesheet" href="/styles.css">
@@ -34,8 +34,8 @@
     <section class="projects">
         <div class="item">
             <div>
-                <button class="copybutton"><a class="copylink">#</a></button>
-                <a class="external" href="https://www.github.com/hearingthingss/python-projects"> python projects </a>
+                <button class="copybutton" onclick="copyToClipboard(document.getElementById(python).href)"><a class="copylink">#</a></button>
+                <a class="external" href="https://www.github.com/hearingthingss/python-projects" id="python"> python projects </a>
             </div>
             <p class="description">delle file semplici scritti in python</p>
         </div>
