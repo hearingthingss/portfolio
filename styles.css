@@ -41,6 +41,14 @@ a:hover{
     font-style: italic;
 }
 
+a:hover::before {
+    content: "[";
+}
+
+a:hover::after {
+    content: "]";
+}
+
 a.external {
     font-size: 1.1em;
 }
@@ -53,16 +61,15 @@ a.copylink {
     color: #808080;
 }
 
+a.top {
+    color: #000000;
+    font-size: 0.85em;
+    float: right;
+    padding: 20px;
+}
+
 a.language {
     font-size: 0.8em;
-}
-
-a:hover::before {
-    content: "[";
-}
-
-a:hover::after {
-    content: "]";
 }
 
 p {
@@ -84,3 +91,11 @@ h4 {
     font-size: 1.2em;
     font-family: "Courier", monospace;
 }
+
+div.test {
+    height: 100%;
+}
+
+/* section.limited {
+    max-width: min(50%, 800px);
+} */
