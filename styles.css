@@ -87,6 +87,13 @@ p.description {
     color: #646464;
 }
 
+p.name {
+    font-size: 1.75em;
+    font-style: italic;
+    margin-top: -0px;
+    margin-bottom: -0px;
+}
+
 h4 {
     font-size: 1.2em;
     font-family: "Courier", monospace;
