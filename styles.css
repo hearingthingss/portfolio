@@ -50,7 +50,7 @@ a:hover::after {
 }
 
 a.external {
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 a.navbar {
@@ -88,7 +88,7 @@ p.body {
 }
 
 p.description {
-    font-size: 0.7em;
+    font-size: 0.75em;
     color: #646464;
 }
 
