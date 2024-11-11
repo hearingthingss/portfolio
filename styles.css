@@ -72,6 +72,11 @@ a.language {
     font-size: 0.8em;
 }
 
+audio {
+    width: 20em;
+    height: 3em;
+}
+
 p {
     font-size: 1.2em;
     font-family: "Courier", monospace;
@@ -101,6 +106,10 @@ h4 {
 
 div.test {
     height: 100%;
+}
+
+div.spacer {
+    height: 30px;
 }
 
 /* section.limited {
