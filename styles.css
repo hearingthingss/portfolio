@@ -72,6 +72,10 @@ a.language {
     font-size: 0.8em;
 }
 
+a.itch:hover {
+    color: #fa5c5c;
+}
+
 audio {
     width: 20em;
     height: 3em;
