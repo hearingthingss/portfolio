@@ -116,6 +116,14 @@ div.spacer {
     height: 30px;
 }
 
+div.align {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 /* section.limited {
     max-width: min(50%, 800px);
 } */
